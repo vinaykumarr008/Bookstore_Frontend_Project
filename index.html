@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BooksHeaven</title>
+    <link rel="icon" type="image/x-icon"
+        href="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\BOOKLOGO1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\booklogo.jfif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js">
+    </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <div class="nav-bar">
+        <div class="topnav">
+            <a class="navbar-brand" href="#home" id="home">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\BOOKLOGO1.png" width="30"
+                    height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                BooksHeaven </a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="midnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#popularbooks">Popular Books</a>
+                <a href="#benefits">Benifits</a>
+                <a href="#price">Price</a>
+                <a href="#author">Author</a>
+                <a href="#carouselExampleCaptions">Awards</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bookshelfimg">
+
+    </div>
+
+    <!-- Header-->
+
+    <header class="bg-dark py-5" id="main-header">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder"><b>Explore worlds, discover stories, and embark on literary journeys.
+                        Welcome to our Bookstore.</b></h1>
+                <p class="lead fw-normal text-white-50 mb-0">Shop Now!</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="popbooks">
+        <h2><b>Popular Books</b></h2>
+        <div class="card-container" id="popularbooks">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\harrypotter.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Harry Potter and the Cursed Child</h5>
+                    <p class="card-text">Author: J.K. Rowling </p><br>
+                    <p>Price: 2,500</p>
+
+                    <a href="https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3D133821666X%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D7U8ngcY%25252FqIz3jR%25252FhNUuU29TgQm9ND%25252FQogKrN2VmjLY7mDSDtQJU4%25252F2GUwIu6rZz8%25252B2gOZ0ZTagiq2rMeZXw44TCLAX94sstse6bXyDJq%25252F%25252FHoLsyU%25252FYMNUDRFT5HEZdsziiT2oQB92B7e%25252B2OGuK891g%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f85378780e0%2529%26quantity%3D1%26sessionID%3D144-8993737-8561266&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0"
+                        class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\book2.jfif"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Hitchhiker's Guide to the Galaxy</h5>
+                    <p class="card-text">Author: Douglas Adams </p>
+                    <p>Price: 1,500</p>
+                    <a href="https://www.amazon.in/gp/buy/addressselect/handlers/display.html?_from=cheetah"
+                        class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\book3.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Hitchhiker's Guide to the Galaxy</h5>
+                    <p class="card-text">Author: Douglas Adams </p>
+                    <p>Price: 1,500</p>
+                    <a href="https://www.amazon.in/gp/buy/addressselect/handlers/display.html?_from=cheetah"
+                        class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\book4.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dharma</h5> <br>
+                    <p class="card-text">Author: Amish and Bhavana Roy</p>
+                    <p>Price: 3,500</p>
+                    <a href="https://www.amazon.in/dppui/pay-select?ie=UTF8&ASIN.0=B0BS4DYNRV&isPaymentInstrumentSelected=0&isPreorder=0&message=Customer+needs+to+set+his+credit+card+details.+DOS+Error+Code+%3D+PAYMENT_PORTAL_VALIDATION_ERROR&result=need-payment-plan-update&asin=B0BS4DYNRV&displayedPrice=212.8&displayedPriceCurrency=INR&displayedPriceCurrencyCode=INR&site=RetailWebsite&_token=gyGsSN8iEF7Aq5qty%2F2GajcMIWy%2FMW2cXYzqYTt%2BxzUuAAAADAAAAABlder5cmF3AAAAABVX8CwXqz4nuL9RKX%2F%2F%2Fw%3D%3D&collectShippingAddress=1&clientId=dbs&t=fiona&isSeriesPurchase=0&device.encryptedDeviceAccountId=DT%3AA2CTZ977SKFQZY&transactionContext=checkout&paymentPlanId=amzn1.pc.pma.djItY2tGbGpGU2QzQTRLWm1Ick9MekZwUQ&paymentContractId=amzn1.pc.pma.djItY2tGbGpGU2QzQTRLWm1Ick9MekZwUQ&destinationPath=%2Fapi%2Fbifrost%2Facquisitions%2Fv1%2Factions%2Farn%3Aaction%3Apa%3A1%3AQjBCUzREWU5SVjpBMjFUSlJVVU40S0dWOkJ1eTpudWxsOjIxMi44MDpJTlI6bnVsbA%3D%3D%3Fcsrf%3DgzkJbpRByLhgP5rEf9wpGHdENkQ9qo69y97Knj7yN08pAAAAAQAAAABlder1cmF3AAAAAKs%252BFBXVfD4nuL9rqj%252BOIQ%253D%253D%26x-client-id%3Debook-dp%26payment.paymentPlanId%3Damzn1.pc.pma.djItY2tGbGpGU2QzQTRLWm1Ick9MekZwUQ&bifrost_enabled=1&payment.mode=checkout&items%5B0%5D.audibleNarration.audibleAsin=&submit.checkout-order.x=Buy+now++&x-client-id=ebook-dp&ref_=dbs_p_ebk_r00_pbcb_cvco00&csrf=gzkJbpRByLhgP5rEf9wpGHdENkQ9qo69y97Knj7yN08pAAAAAQAAAABlder1cmF3AAAAAKs%2BFBXVfD4nuL9rqj%2BOIQ%3D%3D&items%5B0%5D.audibleNarration.addNarration=0&items%5B0%5D.audibleNarration.audibleOurPrice="
+                        class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+        </div> <br>
+    </section>
+
+
+
+
+
+
+    </div>
+    <br>
+
+    <!-- 
+        - #BENEFITS
+      -->
+
+    <section class="section benefits" id="benefits" aria-label="benefits">
+        <h2 class="h2 section-title"><b>Benefits of Reading Books</b></h2>
+        <div class="container">
+            <div class="grid-list">
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Experience</h3>
+
+                    <p class="card-text">
+                        Reading books enriches your life with diverse experiences. Through the lens of different
+                        characters, cultures, and narratives, you gain a broader perspective and a deeper understanding
+                        of the world.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+                </li>
+
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Motivation</h3>
+
+                    <p class="card-text">
+                        Books serve as powerful sources of motivation. Inspirational stories, self-help books, and
+                        biographies offer insights into overcoming challenges, setting goals, and finding the inner
+                        strength to persevere.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+                </li>
+
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Goals</h3>
+
+                    <p class="card-text">
+                        Reading helps clarify and refine your goals. Whether through fiction or non-fiction, books
+                        provide examples of ambition, success, and the journey toward achieving one's objectives
+                    </p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+                </li>
+
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Vision</h3>
+
+                    <p class="card-text">
+                        Books contribute to the development of your vision. They open your mind to possibilities, fuel
+                        creativity, and encourage you to envision a future shaped by innovation, compassion, and
+                        personal growth.</p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Mission</h3>
+
+                    <p class="card-text">
+                        Reading instills a sense of purpose. Whether by exploring philosophical works or understanding
+                        the missions of influential figures, books guide you in defining your values, principles.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+                </li>
+
+
+                <div class="benefits-card has-before has-after">
+
+                    <div class="card-icon">
+                        <img src="">
+                    </div>
+
+                    <h3 class="h3 card-title">Statargy</h3>
+
+                    <p class="card-text">
+                        Books equip you with strategic thinking. Business books, historical accounts, and
+                        problem-solving literature provide valuable insights and strategies that can be applied to your
+                        personal and professional life.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+                </li>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 
+        - #PRICING
+      -->
+
+    <section class="section pricing" aria-label="pricing">
+        <div class="container" id="price">
+
+
+
+            <h2 class="h2 section-title has-underline">
+                <b> Pricing based on their version</b>
+                <span class="span has-before"></span>
+            </h2>
+
+            <ul class="grid-list">
+
+                <div class="pricing-card">
+
+                    <h3 class="h3 card-title">E-Book</h3>
+
+                    <data class="price" value="5">$05</data>
+
+                    <ul class="pricing-card-list">
+
+                        <li class="card-item">
+                            <p class="card-text">Complete Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">PDF and EPUB</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Hardcover Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Access to Downloads</p>
+                        </li>
+
+                    </ul>
+
+                    <a href="https://www.ebooks.com/en-us/" class="btn btn-secondary">BUY NOW</a>
+
+                </div>
+                </li>
+
+
+                <div class="pricing-card bundle">
+
+                    <h3 class="h3 card-title">Bundle</h3>
+
+                    <data class="price" value="15">$15</data>
+
+                    <ul class="pricing-card-list">
+
+                        <li class="card-item">
+                            <p class="card-text">Complete Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">PDF and EPUB</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Hardcover Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Access to Downloads</p>
+                        </li>
+
+                    </ul>
+
+                    <a href="https://www.amazon.in/Books-Bundle/s?rh=n%3A976389031%2Cp_n_binding_browse-bin%3A9839915031"
+                        class="btn btn-secondary">BUY NOW</a>
+
+                </div>
+                </li>
+
+
+                <div class="pricing-card">
+
+                    <h3 class="h3 card-title">Hardcover</h3>
+
+                    <data class="price" value="10">$10</data>
+
+                    <ul class="pricing-card-list">
+
+                        <li class="card-item">
+                            <p class="card-text">Complete Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">PDF and EPUB</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Hardcover Book</p>
+                        </li>
+
+                        <li class="card-item">
+                            <p class="card-text">Access to Downloads</p>
+                        </li>
+
+                    </ul>
+
+                    <a href="https://www.amazon.in/Books-Hardcover/s?rh=n%3A976389031%2Cp_n_binding_browse-bin%3A1318375031"
+                        class="btn btn-secondary">BUY NOW</a>
+
+
+                </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+    <br><br>
+
+
+
+    <!-- 
+        - #AUTHOR
+      -->
+
+    <section class="section author" id="author">
+        <div class="container" id="author-title">
+            <h2><b> Author of the week</b></h2><br>
+
+            <figure class="author-banner img-holder" style="--width: 700; --height: 720;">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\Author.jpg"
+                    class="img-cover">
+            </figure>
+            <br>
+            <div class="author-content">
+
+                <h2 class="h2 section-title">J. K. Rowling</h2>
+
+                <div class="section-text">
+                    Joanne Rowling CH OBE FRSL, better known by her pen name J. K. Rowling, is a British author and
+                    philanthropist. She wrote Harry Potter, a seven-volume fantasy series published from 1997 to 2007.
+                    <a href="https://en.wikipedia.org/wiki/J._K._Rowling">J. K. Rowling</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!-- 
+        - #ACHIEVEMENT
+      -->
+    <!-- ACHIEVEMENT SECTION -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" id>
+        <h2 class="h2 section-title has-underline">
+            Honor & Awards Achieved
+            <span class="span has-before"></span>
+        </h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\prof1.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bookworm's Delight Award</h5>
+                    <p> For the literary enthusiast who devours books like a gourmet feast, the Bookworm's Delight Award
+                        celebrates those with an insatiable appetite for stories and knowledge.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\prof2.avif"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Page-Turner Extraordinaire Trophy</h5>
+                    <p>Awarded to the reader who possesses the magical ability to turn every page with anticipation and
+                        excitement, making even the most ordinary book an extraordinary adventure.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\prof3.avif"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Master of Multiverses Medal</h5>
+                    <p>Conferred upon those who effortlessly navigate multiple genres, proving that they are the Masters
+                        of Multiverses, seamlessly transitioning from fantasy realms to historical epics.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- 
+        - #ABOUT
+      -->
+
+
+    <div class="about-section" id="about"><br><br><br>
+        <h1><b>About Us</b> </h1>
+        <h2>Our Literary Journey</h2>
+        <div class="para">
+            <p>Welcome to "Our Literary Journey," where the magic of words comes to life. Dive into the heart of our
+                bookstore, where each page tells a story and every shelf whispers tales of adventure, knowledge, and
+                imagination. Discover the essence of who we are, why books are our passion, and how we curate stories to
+                create a haven for book lovers. </p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 
+        - #CONTACT
+      -->
+
+
+    <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+
+
+            <h2 class="h2 section-title has-underline">
+                Contact Us
+                <span class="span has-before"></span>
+            </h2>
+
+            <div class="wrapper">
+
+                <form action="" class="contact-form" onsubmit="return handleSubmit()">
+
+                    <input type="text" name="name" placeholder="Your Name" required class="input-field">
+                    <input type="email" name="email_address" placeholder="Your Email" required class="input-field">
+                    <input type="text" name="subject" placeholder="Subject" required class="input-field">
+                    <textarea name="message" placeholder="Your Message" class="input-field"></textarea>
+
+                    <button type="submit" class="btn btn-primary">Send Now</button>
+
+                </form>
+
+                <ul class="contact-card">
+
+
+                    <p class="card-title">Address:</p>
+
+                    <address class="address">
+                        16, Lankaway <br>
+                        Florida, USA 99544
+                    </address>
+                    </li>
+
+
+                    <p class="card-title">Phone:</p>
+
+                    <a href="tel:1234567890" class="card-link">123 456 7890</a>
+                    </li>
+
+
+                    <p class="card-title">Email:</p>
+
+                    <a href="mailto:support@support.com" class="card-link">support@support.com</a>
+                    </li>
+
+
+                    <p class="social-list-title h3">Connect book socials</p>
+
+                    <ul class="social-list">
+
+                        <a href="https://www.facebook.com/" class="social-link">
+                            <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\facebook.png"
+                                width="30px" height="30px" alt="Facebook Logo">
+                            <!-- Optionally, you can add text next to the logo -->
+                            <span></span>
+                        </a>
+
+
+
+
+                        <a href="https://twitter.com/i/flow/login" class="social-link">
+                            <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\new twitter.png"
+                                width="30px" height="30px" alt="Facebook Logo">
+                            <!-- Optionally, you can add text next to the logo -->
+                            <span></span>
+                        </a>
+
+
+                        <a href="https://in.linkedin.com/" class="social-link">
+                            <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\linkdin.png"
+                                width="30px" height="30px" alt="Facebook Logo">
+                            <!-- Optionally, you can add text next to the logo -->
+                            <span></span>
+                        </a>
+
+
+                        <a href="https://www.youtube.com/" class="social-link">
+                            <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\youtube.png"
+                                width="30px" height="35px" alt="Facebook Logo">
+                            <!-- Optionally, you can add text next to the logo -->
+                            <span></span>
+                        </a>
+                        <a href="https://web.whatsapp.com/" class="social-link">
+                            <img src="C:\Users\91843\Documents\2nd sem projects\Zephyr Internship\BOOK\Images\whatsapp.jfif"
+                                width="33px" height="35px" alt="Facebook Logo">
+                            <!-- Optionally, you can add text next to the logo -->
+                            <span></span>
+                        </a>
+
+                    </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <a href="#" class="logo">BooksHeaven</a>
+
+                <ul class="footer-list">
+
+
+                    <a class="active" href="#home">Home</a>
+
+                    <a href="#popularbooks">Popular Books</a>
+                    <a href="#benefits">Benifits</a>
+                    <a href="#price">Price</a>
+                    <a href="#author">Author</a>
+                    <a href="#carouselExampleCaptions">Awards</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
